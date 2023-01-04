@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mainWrapper {
+  height: 100vh;
+  display: flex;
+}
+.navbar {
+  background: red;
+  width: 15%;
+  height: 100vh;
+}
+
+.mainArea {
+  width: 70%;
+  background: yellow;
+}
+
+.userCard {
+  /* border: solid 1px #ccc; */
+  display: flex;
+  margin-top: 3rem;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.imgwrapper img {
+  width: 63px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.imgwrapper {
+  padding: 4px;
+  background-image: url(./img/IG\ circle.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.userDetails {
+  margin-left: 0.6rem;
+}
+
+.userDetails.username {
+  font-size: 0.6rem;
+  font-weight: 800;
+}
+
+.userDetails.userHandle {
+  font-size: 0.5rem;
+  font-weight: 800;
+  color: #545454;
+}
+
+.SuggestionWrapper {
+  width: 15%;
+  background: pink;
+  padding: 1rem;
+}
